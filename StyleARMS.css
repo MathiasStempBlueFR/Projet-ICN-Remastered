@@ -1,0 +1,16 @@
+body{
+    background-color: yellow;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
