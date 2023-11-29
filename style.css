@@ -1,0 +1,52 @@
+body{
+    background-color: lightblue;
+}
+
+nav ul{
+    background-color: lightblue;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}nav li {
+    display: inline-block;
+}
+
+nav a{
+    background-color: white;
+    color: black;
+    border: solid;
+    text-decoration: none;
+    font-family: arial;
+    display: block;
+    padding: 20px;
+}
+
+nav a:hover{
+    background-color: grey;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 90%;
+}
+
+h1{
+    text-align: center;
+    border: solid;
+    background-color: beige;
+}
+
+p{
+    font-size: medium;
+    text-align: center;
+
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+.Haut_de_page{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
