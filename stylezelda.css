@@ -1,5 +1,13 @@
 body{
-    background-color: yellow;
+    background-color: seagreen;
+}
+
+p{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
 }
 
 img{
@@ -7,13 +15,14 @@ img{
     margin: auto;
 }
 
-h2{
-    text-align: center;
+#Hzelda{
+    object-fit: cover;
+    height: auto;
+    width: 50%;
+    border: solid;
+    border-radius: 20%;
 }
 
-p{
-    text-align: center;
-}
 
 #Retour{
     display: inline-block;
