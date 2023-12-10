@@ -2,34 +2,6 @@ body{
     background-color: beige;
 }
 
-h2{
-    text-align: center;
-}
-
-p{
-    text-align: center;
-}
-
-#Mii_logo{
-    height: 400px;
-    width: auto;
-    background-color: white;
-    border-radius: 5%;
-    border: solid 5px;
-    display: block;
-    margin: auto;
-}
-
-#Mii{
-    display: block;
-    margin: auto;
-}
-
-#Matt{
-    display: block;
-    margin: auto;
-}
-
 #Retour{
     display: inline-block;
     text-align: center;
@@ -45,4 +17,100 @@ p{
     text-decoration: underline;
     font-weight: bold;
     font-size: 90%;
+}
+
+/* Tel*/
+@media (min-width: 576px){
+
+    h2{
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+    }
+
+    #Mii_logo{
+        height: 400px;
+        width: auto;
+        background-color: white;
+        border-radius: 5%;
+        border: solid 5px;
+        display: block;
+        margin: auto;
+    }
+
+    .Mii{
+        display: block;
+        margin: auto;
+        width: 30%;
+    }
+
+    #Matt{
+        display: block;
+        margin: auto;
+        width: 30%;
+
+        background-color: lightcyan;
+        border: solid;
+        border-radius: 5%;
+    }
+
+}
+
+
+
+/*Pc*/
+@media (min-width: 1400px){
+    
+    h2{
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+    }
+
+    #Mii_logo{
+        height: 400px;
+        width: auto;
+        background-color: white;
+        border-radius: 5%;
+        border: solid 5px;
+        display: block;
+        margin: auto;
+    }
+
+    .Mii{
+        display: block;
+        margin: auto;
+        height: auto;
+        width: 10%;
+    }
+
+    p.left{
+        float: left;
+        width: 50%;
+    }
+
+    .clear{
+        clear: both;
+    }
+
+    p.right{
+        float: right;
+        width: 50%;
+    }
+
+    #Matt{
+        display: block;
+        margin: auto;
+        
+        width: 15%;
+
+        background-color: lightcyan;
+        border: solid;
+        border-radius: 5%;
+    }
+
 }
