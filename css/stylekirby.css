@@ -1,4 +1,30 @@
+body{
+    background-color: pink;
+}
 
+img{
+    display: block;
+    padding: auto;
+    width: 20%;
+    height:20%;
+    margin: auto;
+}
+
+#logo_kirby{
+    display: block;
+    padding: auto;
+    width: 50%;
+    margin: auto;
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+}
 
 #Retour{
     display: inline-block;

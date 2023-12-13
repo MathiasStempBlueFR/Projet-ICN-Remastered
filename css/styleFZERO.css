@@ -1,4 +1,25 @@
+body{
+    background-color: rgb(68, 159, 250);
+}
 
+#logo_fzero{
+    display: block;
+    margin: auto;
+}
+
+img{
+    display: block;
+    margin: auto; 
+}
+
+h2{
+    text-align: center;
+    font-weight: bold
+}
+
+p{
+    text-align: center;
+}
 
 #Retour{
     display: inline-block;
