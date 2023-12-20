@@ -19,6 +19,10 @@ body{
     font-size: 90%;
 }
 
+audio{
+    display: none;
+}
+
 /* Tel*/
 @media (min-width: 576px){
 

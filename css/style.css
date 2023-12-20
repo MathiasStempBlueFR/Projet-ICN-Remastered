@@ -1,9 +1,24 @@
 body{
     background-color: lightblue;
+    padding: top 100px;
+}
+
+
+.header{
+    position: fixed;
+    display: inline-block;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.content{
+    margin-top: 50px;
+    padding-top: 50px;
 }
 
 nav ul{
-    background-color: lightblue;
+    background-color: transparent;
     list-style-type: none;
     padding: 0;
     text-align: center;
@@ -32,6 +47,7 @@ h1{
     text-align: center;
     border: solid;
     background-color: beige;
+    margin-top: 0;
 }
 
 p{

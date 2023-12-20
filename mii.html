@@ -8,9 +8,13 @@
 </head>
 <body>
     
-    <audio controls autoplay> 
-        <source src="music/Wii Shop Channel Main Theme (HQ).mp3">
-    </audio>
+    <div class="musique_mii">
+        <audio id="musique_mii" controls autoplay> 
+            <source src="music/Wii Shop Channel Main Theme (HQ).mp3">
+        </audio>
+        <button onclick="OFF()" title="sans musique">OFF</button>
+        <button onclick="ON()" title="avec musique">ON</button>
+    </div>
     
     <img id="Mii_logo" src="Images/Mii_Logo.png" alt="Logo des mii">
     <br>
@@ -35,5 +39,6 @@
 
     <br>
     <div title="Retour à l'accueil" id="Retour"><a href="index.html"> Retour </a></div>
+    <script src="JavaScript/index_mii.js"></script>
 </body>
 </html>
